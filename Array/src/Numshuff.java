@@ -17,7 +17,7 @@ public class Numshuff {
 		}
 		
 		System.out.println(Arrays.toString(numarr));
-		
+	
 	}
 
 }
