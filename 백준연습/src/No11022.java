@@ -5,7 +5,9 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class No11022 {
+public class No11022 { //일반 scan, printf보다 버퍼리더,라이터가 훨씬 처리속도가 빠르다. 쌓아놨다가 한번에 처리하기때문.
+	
+	//버퍼에 쌓아놓지않고 키보드 입력할때마다 메모리에 쓰고지우면 그만큼 속도가 느려짐...
 
 	public static void main(String[] args) throws IOException{ //예외처리 필요함
 
