@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class Main { 
-
-	public static void main(String[] args) {
+public class No2577 {
+public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
 		int A=input.nextInt();
@@ -27,7 +26,5 @@ public class Main {
 		input.close();
 		
 	}
-	
+
 }
-
-
