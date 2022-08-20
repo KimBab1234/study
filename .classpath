@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="Array/src"/>
 	<classpathentry kind="src" path="ch6_객체/src"/>
+	<classpathentry kind="src" path="ch7_다형성"/>
 	<classpathentry kind="output" path="ch6_객체/bin"/>
 </classpath>
