@@ -17,6 +17,7 @@ public class No1620 {
 		}
 		
 		while(sc.hasNext()) {
+			String str = sc.next();
 			
 		}
 			
