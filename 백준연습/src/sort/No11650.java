@@ -3,10 +3,12 @@ package sort;
 import java.util.*;
 
 public class No11650 {
+	
+	static Scanner sc = new Scanner(System.in);
+	static int[][] n = new int[sc.nextInt()][2], a= new int[n.length][2];
+	
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
-		int[][] n = new int[sc.nextInt()][2], a= new int[n.length][2];
 		int i=0;
 		StringTokenizer st;
 		
@@ -31,6 +33,10 @@ public class No11650 {
 		
 	}
 	static void sort(int[][] arr, int s, int m, int e) {
-//		if(arr[s][0]>arr[e][0]) 
+		if(arr[s][0]>arr[e][0]) {
+			a[s][0]=arr[e][0];
+		}
+		
+		
 	}
 }
