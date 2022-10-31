@@ -7,26 +7,24 @@ public class No10814 {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		String[][] arr = new String[sc.nextInt()][2];
-		sc.nextLine();
+		String[] arr = new String[201];
+		sc.nextInt();
+		String str="";
 		int i=0;
 		while(sc.hasNext()) {
-			arr[i]=sc.nextLine().split(" ");
-			i++;
-		}
-		
-		Arrays.sort(arr, (o1,o2)->{
-			int j=Integer.parseInt(o1[0]);
-			int k=Integer.parseInt(o2[0]);
-			if(j==k) {
-				return 0;
+			i=sc.nextInt();
+			str=i + " " + sc.next()+"\n";
+			if(arr[i]==null) {
+				arr[i]=str;
 			} else {
-				return j-k;
+				arr[i]+=str;
 			}
-		});
+		}
 		i=0;
 		while(i<arr.length) {
-			System.out.println(arr[i][0]+" "+arr[i][1]);
+			if(arr[i]!=null) {
+				System.out.print(arr[i]);
+			}
 			i++;
 		}
 	}
